@@ -32,4 +32,26 @@
     margin: 0 auto;
     padding: 20px 10px;
   }
+  .inline{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: spa; */
+  }
   
+  .input-holder{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .input-holder label:not(.gender){
+    margin-bottom: 10px;
+  }
+  
+  .input-holder input[type='number']{
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #aaaaaa80;
+  }
