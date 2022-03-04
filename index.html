@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BAKAN</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>BAKAN</h1>
+        <p>Know your <abbr title="Jina la utani">Akan</abbr> name today.</p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>What are Akan Names?</h2>
+        <p>
+          Akan names are names of people born in Ghana. They are used to
+          identify people born in Ghana.
+        </p>
+        <div class="d-flex">
+          <a href="#form-holder" class="know-btn"> Get started </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="form-holder">
+      <div class="form-holder">
+        <h3>Enter Your Birthday</h3>
+        <form id="form">
+          <div class="inline">
+            <div class="input-holder">
+              <label for="day">Day</label>
+              <input type="number" id="day" max="31" min="1" />
+            </div>
+
+            <div class="input-holder">
+              <label for="month">Month</label>
+              <input type="number" id="month" max="12" min="1" />
+            </div>
+
+            <div class="input-holder">
+              <label for="year">Year</label>
+              <input type="number" min="1" id="year" />
+            </div>
+
+            <div class="input-holder">
+              <label class="gender">Gender</label>
+              <div class="radio-container">
+                <div class="radio-holder">
+                  <label for="male">Male</label>
+                  <!-- WE ARE USING SAME NAME TO SELECT A SINGLE ONE HERE -->
+                  <input
+                    type="radio"
+                    onclick="setGender('male')"
+                    name="gender"
+                    id="male"
+                    value="male"
+                  />
+                </div>
+                <div class="radio-holder">
+                  <label for="male">Female</label>
+                  <input
+                    type="radio"
+                    onclick="setGender('female')"
+                    name="gender"
+                    id="female"
+                    value="female"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-holder">
+            <button class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container d-none" id="results">
+      <div class="result-holder">
+        <h3>Hooray! We found your Akan Name</h3>
+
+        <p>
+          Your birth day is:
+          <strong>
+            <span id="akan-birth-day"> </span>
+          </strong>
+        </p>
+
+        <p>
+          Your Akan Name is:
+          <strong>
+            <span id="akan-name"> </span>
+          </strong>
+        </p>
+
+        <div>
+          <button class="submit" onclick="hideOrShowResults()">
+            Check Again!
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
