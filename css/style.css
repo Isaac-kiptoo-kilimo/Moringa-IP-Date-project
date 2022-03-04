@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+:root{
+    --bg-color: #d2cff5;
+  }
+  
+  body{
+    /* background: var(--bg-color); */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header{
+    background-color: #16ADDD;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
