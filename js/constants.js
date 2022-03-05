@@ -59,4 +59,49 @@ const male_akan_names = [
       akan: "Kwame"
     }
   ]
-  
+// Female
+// Sunday: Akosua
+// Monday: Adwoa
+// Tuesday: Abenaa
+// Wednesday: Akua
+// Thursday: Yaa
+// Friday: Afua
+// Saturday: Ama
+
+const female_akan_names = [
+  {
+    index: 0,
+    day: "Sunday",
+    akan: "Akosua"
+  },
+  {
+    index: 1,
+    day: "Monday",
+    akan: "Adwoa"
+  },
+  {
+    index: 2,
+    day: "Tuesday",
+    akan: "Abenaa"
+  },
+  {
+    index: 3,
+    day: "Wednesday",
+    akan: "Akua"
+  },
+  {
+    index: 4,
+    day: "Thursday",
+    akan: "Yaa"
+  },
+  {
+    index: 5,
+    day: "Friday",
+    akan: "Afua"
+  },
+  {
+    index: 6,
+    day: "Saturday",
+    akan: "Ama"
+  }
+]  
