@@ -150,5 +150,26 @@ const getDayObject = () => {
   akan_name.innerText = _akan_obj.akan
 
 }
+// this is where you add event listener
+
+form.addEventListener('submit', (e) => {
+
+  e.preventDefault();
+
+  if (gender === '') {
+    alert('Select Gender Please')
+    return;
+  }
+  else if (form_year.value.toString().length < 4) {
+    alert('Enter year in four digits')
+    return;
+  }
+  else {
+    hideOrShowResults();
+    getDayObject()
+    return;
+  }
+
+})
 
 
