@@ -137,4 +137,17 @@ const female_akan_names = [
     // We need to return the last 2 digits of the year in an integer format
     return parseInt(_digits);
   }
+  const getDayObjectFromAkanNames = (___index, gender) => {
+
+    if (gender === 'male') {
+      const day_obj = male_akan_names.find(akan_obj => akan_obj.index === ___index)
+      return day_obj
+    }
+  
+    else {
+      const day_obj = female_akan_names.find(akan_obj => akan_obj.index === ___index)
+      return day_obj
+    }
+  
+  }
 
