@@ -9,17 +9,17 @@
 ## Table of Content
 
 + [Description](#description)
-+ [Installation Requirement](#Installation/set-up)
++ [Installation Requirement](#set-up/Installation)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
-+ [License](#license)
-+ [Authors Info](#author-Info)
++ [License](#license-Copyright)
++ [Authors Info](#author-Info/contacts)
 + [Layout](#project-layout)
 
 ## Description
 <p>This is a simple website of how to get male and female names according to the day of the week. The site is divided into six sections: the header, description part, the form,label,input fields,button and the footer.</p>
 
-## Set-up/Installation [Go Back to the top](#Akan-Names)
+## Set-up/Installation 
 
 ### Requirements
 
@@ -34,7 +34,7 @@
 5.You need computer or phone and be able to access internet.
 
 
-### Installation Process [Go Back to the top](#Akan-Names)
+### Installation Process 
 
 ## Akan Names and Calculation of the Day of the Week Website.
 
@@ -45,7 +45,7 @@
 
 * js  -This was used to add functionality to the website.
 
-## License and copyright [Go Back to the top](#Akan-Names)
+## License -Copyright 
 
 MIT License
 
@@ -66,7 +66,6 @@ project design link:
 
 ![Design](/images/project-layout.png)
 
-+ [Go Back to the top](#Akan-Names)
 
 
 
