@@ -135,3 +135,20 @@ function hideOrShowResults() {
   }
 
 }
+const getDayObject = () => {
+
+  // We need to make sure that we only pass integers to the function
+  
+  console.log(centuryFromYear(form_year.value))
+  const day_index = getDayFromInputs(centuryFromYear(form_year.value), get2LastDigitsOfYear(form_year.value), parseInt(form_month.value), parseInt(form_day.value));
+
+  // Now we make a function to get an object based on gender from the array that contains the akan name and day of the week using the index
+
+  const _akan_obj = getDayObjectFromAkanNames(day_index, gender)
+
+  akan_birthday.innerText = _akan_obj.day
+  akan_name.innerText = _akan_obj.akan
+
+}
+
+
