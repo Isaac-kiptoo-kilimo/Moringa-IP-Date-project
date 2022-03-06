@@ -127,7 +127,14 @@ const female_akan_names = [
   
   const getDayFromInputs = (cc, yy, mm, dd) => {
     const __day__ = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
-    //  Lets round this value as we return it
+    // Round this value as we return it
     return Math.floor(__day__)
+  }
+
+  const get2LastDigitsOfYear = (fourDigits) => {
+  //  convert to string then back to number
+    const _digits = fourDigits.toString().substring(2, 4);
+    // We need to return the last 2 digits of the year in an integer format
+    return parseInt(_digits);
   }
 
