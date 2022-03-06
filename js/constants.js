@@ -118,3 +118,20 @@ const female_akan_names = [
   const setGender = (_gender) => {
     gender = _gender
   }
+  
+function hideOrShowResults() {
+
+  if (results_holder.classList.contains('d-none')) {
+    results_holder.classList.remove('d-none')
+    form_holder.classList.add('d-none')
+  }
+
+  else {
+    results_holder.classList.add('d-none')
+    form_holder.classList.remove('d-none')
+    form.reset();
+    // We reset gender here too
+    gender = ''
+  }
+
+}
