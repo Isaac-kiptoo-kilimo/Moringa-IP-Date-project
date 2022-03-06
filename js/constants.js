@@ -106,6 +106,7 @@ const female_akan_names = [
   }
 ]
 /*
+ This is the formula given
 
   Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 
@@ -115,5 +116,13 @@ const female_akan_names = [
   DD - is the Day of the month 
   mod - is the modulus function ( % ) */
   
- 
+  const setGender = (_gender) => {
+    gender = _gender
+  }
+  
+  function centuryFromYear(year) {
+  
+    return Math.ceil(year / 100);
+  }
+  
 
