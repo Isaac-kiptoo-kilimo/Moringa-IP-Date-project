@@ -125,4 +125,9 @@ const female_akan_names = [
     return Math.ceil(year / 100);
   }
   
+  const getDayFromInputs = (cc, yy, mm, dd) => {
+    const __day__ = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
+    //  Lets round this value as we return it
+    return Math.floor(__day__)
+  }
 
