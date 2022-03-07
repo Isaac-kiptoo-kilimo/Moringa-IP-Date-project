@@ -190,9 +190,13 @@
     margin: 10px;
     padding: 10px;
   }
-  .inputs{
+   .container_fluid .inline{
+    display: flex;
+    flex-wrap: wrap;
     margin: 2px;
     padding: 1px;
+    /* background-color: yellow; */
+    /* transition: all 0.25s linear; */
   }
   
   #fname ,#lname ,#email ,#pnumber ,#uname ,#password ,#cpassword{
@@ -213,6 +217,7 @@
     border-right: none;
     
   }
+  
 
   .login{
     width: 300px;
@@ -229,13 +234,7 @@
   p a{
     text-decoration: none;
   }
-  @media screen and (max-width:768px) {
-    .container_fluid form{
-      display: block;
-      margin: 8px;
-      padding: 5px;
-      flex-wrap: wrap;
-      background-color: yellow;
-    }
+
+  @media  screen and (max-width: 768) {
     
   }
