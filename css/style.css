@@ -229,3 +229,13 @@
   p a{
     text-decoration: none;
   }
+  @media screen and (max-width:768px) {
+    .container_fluid form{
+      display: block;
+      margin: 8px;
+      padding: 5px;
+      flex-wrap: wrap;
+      background-color: yellow;
+    }
+    
+  }
