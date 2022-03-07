@@ -25,8 +25,25 @@
         </div>
       </div>
     </div>
+    <div class="container_fluid formOne" id="container-fluid" >
+      <form id="formOne">
+          <div class="content">
+              <p>Enter Any Username and Password to Login.</p>
+              <h3>Login here!</h3>
+          </div>
+         <div class="inputs">
+          
+          <label for="">Username <sup>*</sup> </label>
+          <input type="text" id="username" placeholder="Username" required>
+          <label for="">Password <sup>*</sup> </label>
+          <input type="password" id="password" placeholder="Enter your Password" required>
+          <button type=" submit" class="login" id="login">login</button>
+  
+         </div>
+      </form>
+  </div>
 
-    <div class="container" id="form-holder">
+    <div class="container d-none" id="form-holder">
       <div class="form-holder">
         <h3>Enter Your Birthday Details</h3>
         <form id="form">
@@ -106,6 +123,8 @@
         </div>
       </div>
     </div>
+
+    <script src="./js/login.js"></script>
     <script src="./js/constants.js"></script>
     <script src="./js/index.js"></script>
   </body>
