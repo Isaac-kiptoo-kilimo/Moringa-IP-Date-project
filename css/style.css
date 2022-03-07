@@ -171,3 +171,61 @@
     transform: translateY(-20px);
     box-shadow: 0 0 50px #aaaaaa50;
   }  
+
+  .container_fluid{
+    font-size: 17px;
+    margin: 50px auto;
+    padding: 40px;
+    box-shadow: 0 3px 4px 3px grey;
+    /* margin-left: 450px; */
+    width: 30vw;
+  
+  }
+  
+  h3{
+    margin: 10px;
+    padding: 10px;
+  }
+  .para{
+    margin: 10px;
+    padding: 10px;
+  }
+  .inputs{
+    margin: 2px;
+    padding: 1px;
+  }
+  
+  #fname ,#lname ,#email ,#pnumber ,#uname ,#password ,#cpassword{
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+  #name_ , #uname_,#password_{
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+  }
+  
+  .formOne input{
+    width: 300px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+  }
+
+  .login{
+    width: 300px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #16ADDD;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .formlast{
+    margin-top: 10px;
+  }
+  p a{
+    text-decoration: none;
+  }
